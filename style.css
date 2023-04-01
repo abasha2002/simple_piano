@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Dancing-script';
+    src: url(./fonts/DancingScript-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/beauty.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.key{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(211, 56, 0);
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px dotted black;
+    transition:all 0.07s;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 5px yellow;
+
+}
+
+kbd{
+    font-family: 'Dancing-script';
+    font-size: 25px;
+    display: block;
+    color: aqua;
+}
+span{
+    font-family: 'Dancing-script';
+    font-size: 20px;
+    color: snow;
+}
